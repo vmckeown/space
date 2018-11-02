@@ -28,8 +28,7 @@ function initInput(){
 function keyPressed(evt) {
 	setKeyHoldState(evt.keyCode, playerOne, true);
 	evt.preventDefault();
-	console.log("EVT Code: " + evt.keyCode);
-	console.log("Fire! " + playerOne.controlKeyForShotFire);
+	
 	if(evt.keyCode == playerOne.controlKeyForShotFire){
 		playerOne.cannonFire();
 	}	

@@ -23,7 +23,7 @@ window.onload = function(){
 	document.addEventListener("keydown", keyPressed);
 	document.addEventListener("keyup", keyReleased);
 	
-	playerOne.vehicleReset();
+	playerOne.reset();
 }
 
 function imageLoadingDoneSoStartGame(){
